@@ -4,7 +4,7 @@ This project was part of a **college-funded seed grant** to design and prototype
 
 The robot integrates:
 
-* **SLAM & navigation** (developed by a teammate – [coverage planner repo](https://github.com/JatinPatil2003/CleaningRobot))
+* **SLAM & navigation** (developed by a teammate - [coverage planner repo](https://github.com/JatinPatil2003/CleaningRobot))
 * **Computer vision & machine learning** (this repo - my contribution)
 
 The **goal** was to enable the robot not only to move autonomously and map rooms efficiently, but also to:
@@ -15,10 +15,20 @@ The **goal** was to enable the robot not only to move autonomously and map rooms
 
 ---
 
+## ✅ Key Contributions
+
+* Built a **custom dataset** in Roboflow tailored for cleaning robot needs.
+* Performed a **comparative analysis** of six transfer learning algorithms.
+* Trained & evaluated models across YOLO, EfficientDet, Faster R-CNN, SSD, DETR, and InceptionV3.
+* Produced a **research paper (under review)** based on findings.
+* Integrated vision module into the robot prototype with working demos.
+
+---
+
 ## Dataset
 
 Due to a lack of suitable open-source datasets, I built a **custom dataset in Roboflow**:
-👉 [Cleaning Bot Dataset 2.0 on Roboflow](https://universe.roboflow.com/test-hmoom/cleaning_bot_dataset_2.0)
+ [Cleaning Bot Dataset 2.0 on Roboflow](https://universe.roboflow.com/test-hmoom/cleaning_bot_dataset_2.0)
 
 **Classes created:**
 
@@ -77,16 +87,6 @@ Due to a lack of suitable open-source datasets, I built a **custom dataset in Ro
 
 ---
 
-## ✅ Key Contributions
-
-* Built a **custom dataset** in Roboflow tailored for cleaning robot needs.
-* Performed a **comparative analysis** of six transfer learning algorithms.
-* Trained & evaluated models across YOLO, EfficientDet, Faster R-CNN, SSD, DETR, and InceptionV3.
-* Produced a **research paper (under review)** based on findings.
-* Integrated vision module into the robot prototype with working demos.
-
----
-
 ## 🔮 Future Work (by next team)
 
 The project was handed off for continued development, with goals including:
@@ -99,14 +99,6 @@ The project was handed off for continued development, with goals including:
 
 ---
 
-## Related Repository
-
-🔗 Coverage planner implementation: [github.com/JatinPatil2003/CleaningRobot](https://github.com/JatinPatil2003/CleaningRobot)
-
----
-
 ## Acknowledgments
 
 This project was supported through a **college-funded seed grant** and completed as part of our capstone work.
-
----
